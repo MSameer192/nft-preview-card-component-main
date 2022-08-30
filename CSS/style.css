@@ -1,12 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="./CSS/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <title>Sameer Memon | NFT preview card component</title>
+
+  <style>
+
 body {
     background-color: hsl(217, 54%, 11%);
-    margin-top: 20vh;
+    margin-top: 10vh;
     font-family: 'Outfit', sans-serif;
 }
 
 #container {
-    width: 20vw;
-    margin: 0 auto 0 auto;
+    width: 420px;
+    margin: auto;
     padding: 0 25px 0 25px;
     background-color: hsl(216, 50%, 16%);
     font-size: 18px;
@@ -14,15 +32,11 @@ body {
 }
 
 .nft-img {
-    width: 20vw;
-    height: 40vh;
-    /* border: 5px solid red; */
     padding-top: 25px;
-    
 }
 img {
-    height: 100%;
-    width: 100%;
+    width: 420px;
+    height: 450px;
     border-radius: 8px;
 }
 
@@ -47,7 +61,7 @@ img {
 }
 
 .left {
-    padding-left: 15vw;
+    margin-left: 300px;
     padding-bottom: 20px;
     color: hsl(215, 51%, 70%);
 }
@@ -68,6 +82,9 @@ hr {
     font-family: 'Outfit', sans-serif;    
 }
 
+.text {
+    padding-top: 10px;
+}
 .creation {
     color: hsl(215, 51%, 70%);
     padding-left: 15px;
@@ -77,3 +94,60 @@ hr {
 .Jules {
     color: white;
 }
+
+span {
+    word-spacing: 5px;
+}
+  </style>
+  
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+  <div id="container">
+
+    <div class="first-container">
+      <div class="nft-img">
+        <img src="./images/image-equilibrium.jpg" alt="NFT-IMG">
+      </div>
+    </div> 
+      <div class="Equilibrium">
+          Equilibrium #3429
+      </div>
+
+      <div class="equi_para">
+          <p>  Our Equilibrium collection promotes balance and calm.</p>
+      </div>
+
+      <div class="icons">
+        <div class="ETH">  0.041 ETH</div>
+        <div class="left">  3 days left </div>
+      </div>
+
+      <hr>
+
+      <div class="footer">
+        <div>
+        <img class="image-avatar"  src="./images/image-avatar.png" alt="image-avatar">
+        </div> 
+        <div class="text"><span class="creation"> Creation of <span class="Jules"> Jules Wyvern </span>
+        </div>
+      </div>
+
+  </div>  
+
+
+
+  
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
