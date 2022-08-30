@@ -1,0 +1,79 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    margin-top: 20vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+#container {
+    width: 20vw;
+    margin: 0 auto 0 auto;
+    padding: 0 25px 0 25px;
+    background-color: hsl(216, 50%, 16%);
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.nft-img {
+    width: 20vw;
+    height: 40vh;
+    /* border: 5px solid red; */
+    padding-top: 25px;
+    
+}
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.Equilibrium {
+    margin-top: 20px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+
+}
+
+.equi_para {
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+   
+}
+
+.ETH {
+    float: left;   
+    color: hsl(178, 100%, 50%);
+    
+}
+
+.left {
+    padding-left: 15vw;
+    padding-bottom: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    border: 0.5px solid hsl(215, 51%, 70%);
+}
+
+.image-avatar {
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+.footer {
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-family: 'Outfit', sans-serif;    
+}
+
+.creation {
+    color: hsl(215, 51%, 70%);
+    padding-left: 15px;
+    
+}
+
+.Jules {
+    color: white;
+}
